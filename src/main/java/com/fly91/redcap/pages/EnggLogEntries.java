@@ -24,6 +24,7 @@ public class EnggLogEntries {
 
 
 
+
     public EnggLogEntries(Page page) {
         this.page = page;
     }
