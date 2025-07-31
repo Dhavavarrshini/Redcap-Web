@@ -85,7 +85,8 @@ public class Report {
         page.locator(StationwiseReport).click();
         page.locator(StationReportsearch).click();
         page.locator(StationReportsearch).fill("JLG");
-        page.locator(StationRportdownload).hover();*/
+        page.locator(StationRportdownload).hover();
+        Thread.sleep(10000);*/
 
 
 
