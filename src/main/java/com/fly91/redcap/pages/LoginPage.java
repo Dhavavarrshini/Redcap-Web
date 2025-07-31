@@ -11,6 +11,9 @@ public class LoginPage {
     private final String passwordField = "input[placeholder='Password']";
     private final String signinButton = "button:has-text('Sign In')";
 
+    /*private final String username = "LnTtester@gmail.com";
+    private final String password = "lnttester@gmail.com";*/
+
     private final String username = "admin@fly91.in";
     private final String password = "FLY91@Avsec";
 

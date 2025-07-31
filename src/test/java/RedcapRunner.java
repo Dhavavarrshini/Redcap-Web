@@ -30,7 +30,7 @@ public class RedcapRunner {
     LoginPage loginPage = new LoginPage(page);
     loginPage.doLogin();
 
-    AddLogentries addLogentries = new AddLogentries(page);
+    /*AddLogentries addLogentries = new AddLogentries(page);
     addLogentries.doAddLogentries();
 
     Logentries logentries = new Logentries(page);
@@ -52,10 +52,13 @@ public class RedcapRunner {
     addEnggLogentries.doAddEnggLogentries();
 
     EnggLogEntries enggLogEntries = new EnggLogEntries(page);
-    enggLogEntries.doEnggLogEntries();
+    enggLogEntries.doEnggLogEntries();*/
 
-   /* Report report = new Report(page);
-    report.doReport();*/
+    Report report = new Report(page);
+    report.doReport();
+
+    /*LnTuser lnTuser = new LnTuser(page);
+    lnTuser.doLnTuser();*/
 
 }
 @AfterMethod
