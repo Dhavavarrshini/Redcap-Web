@@ -2,6 +2,8 @@ package com.fly91.redcap.pages;
 
 import com.microsoft.playwright.Page;
 
+import java.nio.file.Paths;
+
 public class AddLogentries {
     private Page page;
 
@@ -97,7 +99,7 @@ public class AddLogentries {
         page.locator(day).click();
         page.locator(flighttype).click();
         Thread.sleep(10000);
-        page.locator(flightnumber).click();
+    /*    page.locator(flightnumber).click();
         page.locator(flightnumber).press("ArrowDown");
         page.locator(flightnumber).press("Enter");
         Thread.sleep(10000);
@@ -147,8 +149,22 @@ public class AddLogentries {
         page.locator(Doorclose).click();
         page.locator(ChocksOff).click();
         page.locator(Airborne).click();
-        //page.locator(Teglog).click();
-        page.locator(SSR).click();
+    */
+        /*page.locator(Teglog).click();
+    //    page.keyboard().press("Control+V");
+        Thread.sleep(5000);
+        page.keyboard().type("Screenshot_20250723-112438.Chrome");
+        Thread.sleep(10000);
+        page.keyboard().press("Enter");
+        Thread.sleep(10000);*/
+
+        page.locator(Teglog).click();
+        /*page.locator("input[type='file']").nth(0)
+                .setInputFiles(Paths.get("C:/Users/dhava/OneDrive/Pictures/Screenshots/Screenshot 2025-07-29 100647.png"));*/
+        Thread.sleep(10000);
+
+
+    /*    page.locator(SSR).click();
         page.locator(SSR).fill("0");
         page.locator(Pax).fill("70");
         page.locator(Inf).fill("2");
@@ -202,7 +218,7 @@ public class AddLogentries {
         page.locator(Reset).click();
         Thread.sleep(10000);
 
-
+*/
 
 
     }

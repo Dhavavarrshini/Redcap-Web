@@ -9,7 +9,9 @@ public class Logentries {
     private final String viewLogentry = "(//td[contains(text(), 'PNQ')])[1]";
     private final String viewoperationalEntry = "//span[contains(text(), 'Operational')]";
     private final String viewBack = "//span[contains(text(), 'Back')]";
+
     private final String Edit = "(//span[contains(@class, 'm_8d3afb97 mantine-ActionIcon-icon')])[2]";
+    private final String EditFlightType = "//div[contains(@class, 'm_1b7284a3 mantine-Paper-root')]";
     private final String NoChangeButton = "//input[contains(@class, 'mantine-focus-auto m_26063560 mantine-Checkbox-input')]";
     private final String EditLastPaxOnboard =  "(//input[contains(@class, 'm_8fb7ebe7 mantine-Input-input mantine-TextInput-input')])[22]";
     private final String FlightType = "(//div[contains(@class, 'css-19bb58m')])[3]";
