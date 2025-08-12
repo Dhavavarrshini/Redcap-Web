@@ -22,11 +22,6 @@ public class Profile {
 
 
 
-
-
-
-
-
     public Profile(Page page) {
         this.page = page;
     }

@@ -21,7 +21,7 @@ public class RedcapRunner {
 
     BrowserContext context = browser.newContext();
     page = context.newPage();
-    page.navigate("https://icdevredcap.pentafox.in/auth/login");
+    page.navigate("https://icdevredcap.flynineone.com/auth/login");
 
 
 }
@@ -52,16 +52,16 @@ public class RedcapRunner {
     addEnggLogentries.doAddEnggLogentries();
 
     EnggLogEntries enggLogEntries = new EnggLogEntries(page);
-    enggLogEntries.doEnggLogEntries();
+    enggLogEntries.doEnggLogEntries();*/
 
     Report report = new Report(page);
     report.doReport();
 
-    LnTuser lnTuser = new LnTuser(page);
-    lnTuser.doLnTuser();*/
+/*    LnTuser lnTuser = new LnTuser(page);
+    lnTuser.doLnTuser();
 
     Profile profile = new Profile(page);
-    profile.doProfile();
+    profile.doProfile();*/
 
 }
 @AfterMethod

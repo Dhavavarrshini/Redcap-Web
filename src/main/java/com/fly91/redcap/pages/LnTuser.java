@@ -13,7 +13,7 @@ public class LnTuser {
     private final String Nextbutton = "//span[contains(text(), 'Next (Preview Latest File)')]";
     private final String PrintButton = "//span[contains(text(), 'Print PDF')]";
     private final String DownloadPDF = "//span[contains(text(), 'Download PDF')]";
-    private final String Profileclick = "//p[contains(text(), 'lnt')]";
+    private final String Profileclick = "//p[contains(text(), 'LnT')]";
     private final String ViewProfile = "//div[contains(text(), 'View Profile')]";
     private final String Logout = "//div[contains(text(), 'Logout')]";
 
@@ -40,9 +40,9 @@ public class LnTuser {
         page.locator(StationSelect).press("Enter");
         Thread.sleep(10000);
         page.locator(Date).click();
-        page.locator(Date).fill("22-Jul-2025");
+        page.locator(Date).fill("23-Jul-2025");
         page.locator(FlightNumber).click();
-        page.locator(FlightNumberFill).type("5607");
+        page.locator(FlightNumberFill).type("5603");
         page.locator(FlightNumberFill).press("Enter");
         Thread.sleep(10000);
         page.locator(Nextbutton).click();
