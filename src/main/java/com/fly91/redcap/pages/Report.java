@@ -126,12 +126,7 @@ public class Report {
 
 
 
-
-
     }
-
-
-
 
 
     public void doReport() throws InterruptedException {
